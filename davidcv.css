@@ -1,0 +1,170 @@
+header  {
+    
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+body    {
+    display: grid;
+    background-image: url(https://imgur.com/gOFUCUj.jpg);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px; 
+}
+#row1   {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    column-gap: 10px;
+}
+
+#details   {
+    list-style-type: none;
+    line-height: 50px;
+}
+
+#personalinfo   {
+    background-image: url(https://imgur.com/ufdQkyX.jpg);
+}
+
+#personalinfo:hover {
+    font-size: 30px;
+    background-color: white;
+}
+
+#personalprofile    {
+    background-image: url(https://imgur.com/ufdQkyX.jpg);
+}
+
+#personalprofile:hover {
+    font-size: 30px;
+    background-color: white;
+}
+
+#row2   {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    font-size: 20px;
+    column-gap: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#workexperience {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.workexp    {
+    font-size: 20px;
+    width: 400px;
+    border-radius: 50px;
+    background-image: url(https://imgur.com/ufdQkyX.jpg);
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#hospitality    {
+    background-color: white;
+    border-radius: 50px;
+}
+
+#ladbrokescsm   {
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+
+#workexphead    {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+#hobbies    {
+    background-image: url(https://imgur.com/ufdQkyX.jpg);
+    
+}
+
+#hobbieslist  {
+    font-size: 30px;
+    list-style-type: none;
+    line-height: 70px;
+}
+
+.section    {
+    border-radius: 50px; 
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+#row3   {
+    grid-template-columns: 1fr;
+    font-size: 25px;
+}
+
+#education  {
+    background-image: url(https://i.imgur.com/mOiHRhw.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+}
+
+#educationhead  {
+    color: white;
+}
+
+#skills {
+    background-image: url(https://imgur.com/ufdQkyX.jpg);
+    line-height: 40px;
+    
+}
+
+#coursesandcertifications   {
+    background-image: url(https://imgur.com/ufdQkyX.jpg);
+}
+
+ul  {
+    list-style-type: none;
+}
+
+.miniheader {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    color: blue;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+#row4   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    column-gap: 10px;
+}
+
